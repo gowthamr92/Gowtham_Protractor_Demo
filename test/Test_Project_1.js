@@ -8,7 +8,7 @@ describe('Demo project', function () {
         element(by.model('second')).sendKeys('51');
         element(by.css('[ng-click="doAddition()"]')).click();
 
-        browser.sleep(3000);
+        browser.sleep(4000);
 
     });
 
