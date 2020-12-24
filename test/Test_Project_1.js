@@ -8,7 +8,11 @@ describe('Demo project', function () {
         element(by.model('second')).sendKeys('51');
         element(by.css('[ng-click="doAddition()"]')).click();
 
+<<<<<<< HEAD
         browser.sleep(2000);
+=======
+        browser.sleep(4000);
+>>>>>>> 096479a5f88740b1caf8e978a39d253b6ec60415
 
     });
 
